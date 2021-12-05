@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity(), Newsitemclicked {
         }
         madapter = NewsFreshAdapter(this)
         recyclerView.adapter=madapter
+        Log.d("Find", "Yes")
     }
     private fun fetchdata(url:String)
     {
